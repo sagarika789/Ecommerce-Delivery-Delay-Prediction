@@ -1,0 +1,19 @@
+# Core Data Handling
+pandas
+numpy
+scikit-learn
+
+# ML Models & Tuning (Key Libraries)
+lightgbm
+xgboost
+optuna
+
+# Deep Learning (MLP model base)
+tensorflow
+keras
+
+# Interpretability
+shap
+
+# Geolocation
+haversine
