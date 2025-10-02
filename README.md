@@ -48,7 +48,31 @@ Feature importance was analyzed using SHAP (SHapley Additive exPlanations) to pr
 
 **Engineering**: Feature Engineering (Haversine Distance, Time-based features), Git.
 
+# Dataset & Setup
+**Dataset Note**
+This project uses the Amazon Delivery Dataset (approx. 6 MB). To run the code, you must manually download the single CSV file and place it in the project root directory.
+
+**Source URL**: https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset
+
+**Required Filename**: amazon_delivery.csv
+
+**Local Installation**:
+
+* Clone the repository:
+git clone [https://github.com/sagarika789/delivery-delay-prediction.git](https://github.com/sagarika789/delivery-delay-prediction.git)
+cd delivery-delay-prediction
+
+* Install dependencies:
+pip install -r requirements.txt
+
+* Execute the full pipeline:
+#Executes the end-to-end ML pipeline: preprocessing, modeling, and evaluation.
+python src/train_model.py
+
+
+
 # Next Steps
 * Extend to include the increase in cost estimation due to delay.
 
 * Integrate real-time traffic API data to improve predictive accuracy further.
+**
